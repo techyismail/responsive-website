@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Agency | Unleash Your Imagination</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-2HhxHDDXY1Fh8sH22n0x8e+4KrKuJ+rb/JECky0zJ0Y5XsWZnnlEB0gTeYokz+/V/kNC3J+8j5A7k6e1ShpmfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav id="navigation">
+            <div class="container">
+                <h1 class="brand">
+                    <i class="fas fa-paint-brush"></i> Creative Agency
+                </h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Unleash Your Imagination</h2>
+            <p>We provide innovative solutions to transform your ideas into reality.</p>
+            <a href="#services" class="cta-button">Explore Services</a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-palette fa-3x"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Original and creative graphic design solutions tailored to your brand.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-code fa-3x"></i>
+                    <h3>Web Development</h3>
+                    <p>Customized web development services to enhance your online presence.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <h3>Photography</h3>
+                    <p>Professional photography services capturing moments with perfection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="./people1.avif" alt="Team Member 1">
+                    <h3>Ismail</h3>
+                    <p>Founder & Creative Director</p>
+                </div>
+                <div class="team-member">
+                    <img src="./people2.jpg" alt="Team Member 2">
+                    <h3>Arham</h3>
+                    <p>Lead Designer</p>
+                </div>
+                <div class="team-member">
+                    <img src="./people3.jpg" alt="Team Member 3">
+                    <h3>Huzaifa</h3>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a project in mind? Get in touch with us today!</p>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Creative Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
